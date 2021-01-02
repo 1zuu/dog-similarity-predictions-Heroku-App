@@ -44,7 +44,7 @@ def save_image(image, img_path):
 
 neighbor = extract_features()
 
-@app.route("/predict", methods=["POST"])
+@app.route("/lost", methods=["POST"])
 def predict(neighbor=neighbor):
 
       dogimagefile= request.files['image'].read()
