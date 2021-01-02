@@ -8,9 +8,6 @@ from util import *
 from flask import Flask
 from flask import jsonify
 from flask import request
-import werkzeug
-import warnings
-warnings.simplefilter("ignore", DeprecationWarning)
 
 from variables import *
 from heroku_inference import predict_neighbour, extract_features

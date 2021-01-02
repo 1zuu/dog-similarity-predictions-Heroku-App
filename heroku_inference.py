@@ -1,11 +1,8 @@
 import os
 import pickle
 import pathlib
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-import tensorflow as tf
-import logging
-logging.getLogger('tensorflow').disabled = True
 import numpy as np
+import tensorflow as tf
 from tensorflow.keras.models import model_from_json, Sequential, Model, load_model
 from tensorflow.keras.layers import Activation, Dense, Input, Flatten, BatchNormalization
 from tensorflow.keras import backend as K
@@ -14,10 +11,6 @@ from util import *
 from variables import *
 
 np.random.seed(seed)
-
-physical_devices = tf.config.experimental.list_physical_devices('GPU')
-print("\nNum GPUs Available: {}\n".format(len(physical_devices)))
-tf.config.experimental.set_memory_growth(physical_devices[0], True)
 
 test_classes, test_images, test_url_strings = load_test_data(test_dir, test_data_path)
 
