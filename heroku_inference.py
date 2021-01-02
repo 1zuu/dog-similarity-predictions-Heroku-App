@@ -9,7 +9,6 @@ import numpy as np
 from tensorflow.keras.models import model_from_json, Sequential, Model, load_model
 from tensorflow.keras.layers import Activation, Dense, Input, Flatten, BatchNormalization
 from tensorflow.keras import backend as K
-from matplotlib import pyplot as plt
 from sklearn.neighbors import NearestNeighbors
 from util import *
 from variables import *
