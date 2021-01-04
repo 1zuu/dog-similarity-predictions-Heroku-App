@@ -25,6 +25,7 @@ def load_test_data(data_path, save_path):
             label_images = []
             for img_name in os.listdir(label_dir):
                 img_path = os.path.join(label_dir, img_name)
+                url_path = os.path.join(cloud_image_dir, label, img_name)
                 img = cv.imread(img_path)
                 img = cv.cvtColor(img, cv.COLOR_BGR2RGB)
                 img = preprocessing_function(img)
@@ -32,7 +33,7 @@ def load_test_data(data_path, save_path):
 
                 images.append(img)
                 classes.append(int(label))
-                url_strings.append(img_path)
+                url_strings.append(url_path)
 
         images = np.array(images).astype('float32')
         classes = np.array(classes).astype('float32')
