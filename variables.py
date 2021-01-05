@@ -21,4 +21,4 @@ test_folder_id = "1ZB25Xz4GVjhgXuO3Sqcw3E1viQKmCSAb"
 client_id = "236819335465-43d7n42tsg7ompebj9cf7cb3c5vg5lvj.apps.googleusercontent.com"
 client_secret = "JxTRsQIpvPZIhoJvHr_kKDCJ"
 
-cloud_image_dir = "https://res.cloudinary.com/douc1omvg/image/upload/Test_Images/"
+cloud_image_dir = "https://res.cloudinary.com/douc1omvg/image/upload/Dog_Similarity_Prediction/"
