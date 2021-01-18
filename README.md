@@ -24,3 +24,18 @@ Develop Play-Date app for Dogs using dog images and user requirements(text), usi
 * scikit learn - Advanced preprocessing and Machine Learning Models
 * nltk - Text Processing 
 * heroku - cloud deployment
+
+
+### Installation
+
+Install the dependencies and conda environment
+
+```sh
+$ conda create -n envname python=3.7
+$ activate envname 
+$ conda install -c anaconda tensorflow-gpu
+$ conda install -c anaconda pandas
+$ conda install -c anaconda matplotlib
+$ conda install -c anaconda scikit-learn
+$ conda install -c anaconda nltk
+```
