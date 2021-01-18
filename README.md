@@ -9,6 +9,9 @@ Develop Play-Date app for Dogs using dog images and user requirements(text), usi
 3. Create Inference model using TensorflowLite.
 5. Deploy the app on Heroku.
 
+# Methodology
+![Methodology](https://github.com/1zuu/dog-similarity-predictions-Heroku-App/blob/main/methodology.png)
+
 # Techniques
   - Convolutional Neural Networks
   - Recurrent neural networks
