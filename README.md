@@ -17,3 +17,10 @@ Develop Play-Date app for Dogs using dog images and user requirements(text), usi
   - TensorflowLite inference
   - Heroku Deployment
   
+ # Tools
+* TensorFlow - Deep Learning Model
+* pandas - Data Extraction and Preprocessing
+* numpy - numerical computations
+* scikit learn - Advanced preprocessing and Machine Learning Models
+* nltk - Text Processing 
+* heroku - cloud deployment
